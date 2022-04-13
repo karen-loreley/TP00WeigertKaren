@@ -1,7 +1,7 @@
 package ar.edu.unju.edm;
 
-import ch.qos.logback.core.recovery.ResilientSyslogOutputStream;
-
+//import ch.qos.logback.core.recovery.ResilientSyslogOutputStream;
+//import java.until.Scanner;
 public class calculadora {
 private int numero;
 private int numerob;
@@ -25,21 +25,35 @@ public int resolvermultiplicacion() {
 	return resultado3;
 }
 
-public int resolverdivision() {
+public double resolverdivision() {
 	
-	if (numerob > 0 || numerob<0)
-	{
-		int resultado4 = numero/numerob;
+	/*if (numerob > 0 || numerob<0 numerob != 0)*/
+	
+		double resultado4 = (double) numero / numerob;
 		return resultado4;	
-	}
-	else
-		return 0;
 	
+}
+
+public double potencia ()
+{
+	//double base=numero, expo=numerob;
+	double potencia = Math.pow((double)numero, (double)numerob);
+	
+	return potencia;
+}
+
+public double raiz ()
+{
+	//double base=numero, expo=numerob;
+	double raiz = Math.pow((double)numero, (double)1/numerob);
+	
+	return raiz;
 }
 
 public int getNumero() {
 	return numero;
 }
+
 
 public void setNumero(int numero) {
 	this.numero = numero;

@@ -1,7 +1,10 @@
-package ar.edu.unju.edm;
+package ar.edu.unju.edm.model;
+
+import org.springframework.stereotype.Component;
 
 //import ch.qos.logback.core.recovery.ResilientSyslogOutputStream;
 //import java.until.Scanner;
+@Component
 public class calculadora {
 private int numero;
 private int numerob;

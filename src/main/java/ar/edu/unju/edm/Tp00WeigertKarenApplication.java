@@ -3,6 +3,7 @@ package ar.edu.unju.edm;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import ar.edu.unju.edm.model.calculadora;
 import ar.edu.unju.edm.model.estudiante;
 
 @SpringBootApplication

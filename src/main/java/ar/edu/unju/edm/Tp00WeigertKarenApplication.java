@@ -13,10 +13,10 @@ public class Tp00WeigertKarenApplication {
 		SpringApplication.run(Tp00WeigertKarenApplication.class, args);
 		
 		String nombre=" karen";
-		System.out.println("Hola mundo"+ nombre+ ""+darnombre());
+		System.out.println("Hola mundo"+ nombre+ "  "+darnombre());
 		estudiante unestudiante = new estudiante();
 		unestudiante.setDni("44769217");
-		unestudiante.setNombre("nuevonombre");
+		unestudiante.setNombre("Karen");
 		System.out.println("el estudiante "+ unestudiante.getNombre()+ "dice hola");
 	
 		calculadora uncalculadora = new calculadora();
@@ -43,4 +43,3 @@ public class Tp00WeigertKarenApplication {
 	 return darnombre;
  }
  }
-
